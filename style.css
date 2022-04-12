@@ -1,0 +1,105 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body>h1 {
+    margin: 25px 0 10px;
+}
+
+div.inputContainer {
+    max-width: 1000px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin: 5px 0;
+}
+
+div.inputContainer div.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+button {
+    display: flex;
+    width: 49%;
+}
+
+button i {
+    margin-left: 10px;
+}
+
+div.dataContainer {
+    max-width: 800px;
+    width: 80%;
+    margin-top: 25px;
+}
+
+div.superheroData {
+    width: 600px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+    background-color: #FFD936;
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 2px #555;
+    align-items: center;
+}
+
+div.superheroData:nth-child(2n) {
+    width: 600px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+    background-color: #ffbc36;
+    padding: 20px 20px;
+    border-radius: 15px;
+
+}
+
+div.imageContainer {
+    width: 30%;
+    max-height: 200px;
+    overflow: hidden;
+    display: flex;
+}
+
+div.imageContainer img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    flex-grow: 1;
+}
+
+div.contentContainer {
+    padding: 0 15px 10px;
+    width: 60%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.contentContainer h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+div.contentContainer p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+div.contentContainer a {
+    text-align: center;
+}
